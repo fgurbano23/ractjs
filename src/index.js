@@ -63,6 +63,7 @@ class Controller extends Component {
     }
     data.tasks.push(task);
     this.setState({data:data});
+    
   document.getElementById("TaskName").value="";
   document.getElementById("TaskPriority").value="1";
   document.getElementById("TaskDescription").value="";
